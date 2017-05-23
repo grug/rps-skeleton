@@ -29,6 +29,6 @@ describe('Game component', () => {
   });
 
   it('Can reset the game state', () => {
-    // Task - write some tests here.
+    // Task: write some tests here.
   });
 });
