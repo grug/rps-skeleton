@@ -14,7 +14,7 @@ export default class Game {
   fight(weapon) {
     this.playerWeapon = weapon;
     this.selectComputerWeapon();
-    this.result = this.determineWinner(this.playerWeapon, this.computerWeapon);
+    this.result = this.gameLogic.determineWinner(this.playerWeapon, this.computerWeapon);
   }
 
   /**
